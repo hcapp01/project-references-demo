@@ -1,12 +1,11 @@
-import Animal from '.';
-import { makeRandomName } from '../core/utilities';
-
-export interface Dog extends Animal {
+/// <reference path="animal.ts"/>
+/// <reference path="../core/utilities.ts"/>
+interface Dog extends Animal {
     woof(): void;
     name: string;
 }
 
-export function createDog(): Dog {
+function createDog(): Dog {
     return ({
         size: "medium",
         woof: function(this: Dog) {

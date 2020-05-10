@@ -1,4 +1,4 @@
-export type Size = "small" | "medium" | "large";
-export default interface Animal {
+type Size = "small" | "medium" | "large";
+interface Animal {
     size: Size;
 }

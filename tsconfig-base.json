@@ -2,7 +2,7 @@
     "compilerOptions": {
         "declaration": true,
         "target": "es5",
-        "module": "commonjs",
+        "module": "amd",
         "strict": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
